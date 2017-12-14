@@ -11,9 +11,9 @@ const TelegramlBot = recuire("node-telegram-bot-api"),
 bot.on("message", function(msg) {
 	const id = msg.from.id,
 		_messageText = msg.text,
-		_messageText = _messageText.toLowerCase();
+		messageText = _messageText.toLowerCase();
 
 	if (messageText === "привет") {
-		bot.sendMessage(id, 'Привет я бот - чем могу быть полезен?');
+		bot.sendMessage(id, 'Привет, я бот - чем могу помочь?');
 	}
 });
