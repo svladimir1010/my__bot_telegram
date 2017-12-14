@@ -1,0 +1,19 @@
+# lcov
+coverage/
+*.log
+.package.json
+
+# artifacts & source
+README.hbs
+output.md
+output/
+test/
+examples/
+lib-doc/
+
+# dotfiles
+
+.editorconfig
+.babelrc
+.gitignore
+.git
