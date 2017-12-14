@@ -4,11 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svladimir1010/my__bot_telegram"
   },
   "keywords": [],
   "author": "vladimir <vladimireur@gmail.com>",
-  "license": "ISC",
+   "bugs": {
+    "url": "https://github.com/svladimir1010/my__bot_telegram"
+  },
+  "homepage": "https://github.com/svladimir1010/my__bot_telegram",
   "dependencies": {
     "node-telegram-bot-api": "^0.29.0",
     "request": "^2.83.0"
